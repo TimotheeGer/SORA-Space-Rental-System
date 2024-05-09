@@ -23,15 +23,19 @@ Make sure you have the following installed:
 
 To get the project running on your local machine, follow these steps:
 
-1. **Start the Docker environment:**
+1. **Rename the `.env.example` file to `.env`:**
+   ```bash
+   mv .env.example .env
+
+2. **Start the Docker environment:**
    ```bash
     docker-compose up -d
     
-2. **Run database migrations:**
+3. **Run database migrations:**
    ```bash
     diesel migration run
     
-3. **Build and run the project:**
+4. **Build and run the project:**
     ```bash
     cargo build
     cargo run
