@@ -36,6 +36,9 @@ To get the project running on your local machine, follow these steps:
     cargo build
     cargo run
 
+4. **Accessing the Database with Adminer:**
+   Adminer is set up to manage the database and can be accessed through your web browser at localhost:8081/adminer. Use this interface to manage your database directly.
+
 ## Usage
 
 The **SORA Space Rental System** is designed to be simple and intuitive, allowing users to quickly start managing and renting office spaces.
