@@ -1,0 +1,1 @@
+(diesel::sql_types::Text, diesel::sql_types::Timestamptz, diesel::sql_types::Text, diesel::sql_types::Text, diesel::sql_types::Nullable<Double>, diesel::sql_types::Nullable<Double>, Double, diesel::sql_types::Nullable<Integer>, diesel::sql_types::Nullable<Integer>, diesel::sql_types::Nullable<diesel::sql_types::Text>, diesel::sql_types::Text)
